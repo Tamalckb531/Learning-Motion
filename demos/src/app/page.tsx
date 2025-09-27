@@ -1,9 +1,9 @@
-import Transitions from "@/components/Transitions";
+import Keyframes from "@/components/Keyframes";
 
 export default function Home() {
   return (
     <div className="">
-      <Transitions />
+      <Keyframes />
     </div>
   );
 }
