@@ -1,10 +1,9 @@
-import Transformation from "@/components/Transformation";
-import * as motion from "motion/react-client";
+import Transitions from "@/components/Transitions";
 
 export default function Home() {
   return (
     <div className="">
-      <Transformation />
+      <Transitions />
     </div>
   );
 }
