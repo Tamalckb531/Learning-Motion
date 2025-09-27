@@ -1,1 +1,1 @@
-Learning Framer motion with react
+Learning motion with react
