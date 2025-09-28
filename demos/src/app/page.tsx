@@ -1,9 +1,9 @@
-import Gestures from "@/components/Gestures";
+import GesturesCard from "@/components/GestureCard";
 
 export default function Home() {
   return (
     <div className="">
-      <Gestures />
+      <GesturesCard />
     </div>
   );
 }
