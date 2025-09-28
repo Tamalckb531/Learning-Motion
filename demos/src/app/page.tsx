@@ -1,9 +1,9 @@
-import Variants from "@/components/Varients";
+import Gestures from "@/components/Gestures";
 
 export default function Home() {
   return (
     <div className="">
-      <Variants />
+      <Gestures />
     </div>
   );
 }
