@@ -1,9 +1,9 @@
-import Keyframes from "@/components/Keyframes";
+import Variants from "@/components/Varients";
 
 export default function Home() {
   return (
     <div className="">
-      <Keyframes />
+      <Variants />
     </div>
   );
 }
