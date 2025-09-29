@@ -1,9 +1,9 @@
-import Stagger from "@/components/Stagger";
+import StaggerCard from "@/components/StaggerCard";
 
 export default function Home() {
   return (
     <div className="">
-      <Stagger />
+      <StaggerCard />
     </div>
   );
 }
