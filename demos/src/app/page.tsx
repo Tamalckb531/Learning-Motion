@@ -1,9 +1,9 @@
-import GesturesCard from "@/components/GestureCard";
+import Stagger from "@/components/Stagger";
 
 export default function Home() {
   return (
     <div className="">
-      <GesturesCard />
+      <Stagger />
     </div>
   );
 }
