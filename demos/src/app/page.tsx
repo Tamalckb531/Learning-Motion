@@ -10,8 +10,8 @@ export default function Home() {
       {/* <Box /> */}
       {/* <BouncingCircle /> */}
       {/* <SpinningIcon /> */}
-      <ComplexAnimation />
-      {/* <SkewRectangle /> */}
+      {/* <ComplexAnimation /> */}
+      <SkewRectangle />
     </div>
   );
 }
