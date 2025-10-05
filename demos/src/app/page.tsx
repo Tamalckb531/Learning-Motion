@@ -10,8 +10,8 @@ export default function Home() {
     <div className="">
       {/* <Accordion /> */}
       {/* <FadeComponent /> */}
-      <Modal />
-      {/* <ResponsiveBtn /> */}
+      {/* <Modal /> */}
+      <ResponsiveBtn />
       {/* <Sidebar /> */}
       {/* <ToastNotification /> */}
     </div>
