@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div className="">
       {/* <Box /> */}
-      <BouncingCircle />
-      {/* <SpinningIcon /> */}
+      {/* <BouncingCircle /> */}
+      <SpinningIcon />
       {/* <ComplexAnimation /> */}
       {/* <SkewRectangle /> */}
     </div>
