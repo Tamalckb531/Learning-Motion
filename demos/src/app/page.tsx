@@ -14,8 +14,8 @@ export default function Home() {
       {/* <ColorChangeSqr /> */}
       {/* <PulsatingBtn /> */}
       {/* <SlidingText /> */}
-      {/* <WaveEffect /> */}
-      <ZigZagAnim />
+      <WaveEffect />
+      {/* <ZigZagAnim /> */}
     </div>
   );
 }
