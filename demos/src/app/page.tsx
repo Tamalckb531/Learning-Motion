@@ -9,12 +9,12 @@ import ZigZagAnim from "@/projects/keyframes/ZigZagAnim";
 export default function Home() {
   return (
     <div className="">
-      {/* <AnimatedBg /> */}
+      <AnimatedBg />
       {/* <BouncingBall /> */}
       {/* <ColorChangeSqr /> */}
       {/* <PulsatingBtn /> */}
       {/* <SlidingText /> */}
-      <WaveEffect />
+      {/* <WaveEffect /> */}
       {/* <ZigZagAnim /> */}
     </div>
   );
