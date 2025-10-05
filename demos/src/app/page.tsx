@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div className="">
       {/* <AnimatedBg /> */}
-      <BouncingBall />
+      {/* <BouncingBall /> */}
       {/* <ColorChangeSqr /> */}
-      {/* <PulsatingBtn /> */}
+      <PulsatingBtn />
       {/* <SlidingText /> */}
       {/* <WaveEffect /> */}
       {/* <ZigZagAnim /> */}
