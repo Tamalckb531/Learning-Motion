@@ -13,9 +13,9 @@ export default function Home() {
       {/* <BouncingBall /> */}
       {/* <ColorChangeSqr /> */}
       {/* <PulsatingBtn /> */}
-      <SlidingText />
+      {/* <SlidingText /> */}
       {/* <WaveEffect /> */}
-      {/* <ZigZagAnim /> */}
+      <ZigZagAnim />
     </div>
   );
 }
