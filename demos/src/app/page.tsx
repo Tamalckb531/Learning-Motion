@@ -9,8 +9,8 @@ export default function Home() {
     <div className="">
       {/* <Box /> */}
       {/* <BouncingCircle /> */}
-      <SpinningIcon />
-      {/* <ComplexAnimation /> */}
+      {/* <SpinningIcon /> */}
+      <ComplexAnimation />
       {/* <SkewRectangle /> */}
     </div>
   );
