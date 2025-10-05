@@ -11,9 +11,9 @@ export default function Home() {
       {/* <Accordion /> */}
       {/* <FadeComponent /> */}
       {/* <Modal /> */}
-      <ResponsiveBtn />
+      {/* <ResponsiveBtn /> */}
       {/* <Sidebar /> */}
-      {/* <ToastNotification /> */}
+      <ToastNotification />
     </div>
   );
 }
