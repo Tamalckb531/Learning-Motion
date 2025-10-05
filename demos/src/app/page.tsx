@@ -1,17 +1,19 @@
-import BouncingCircle from "@/projects/Transformation/BouncingCircle";
-import Box from "@/projects/Transformation/Box";
-import ComplexAnimation from "@/projects/Transformation/ComplexAnimation";
-import SkewRectangle from "@/projects/Transformation/SkewRectangle";
-import SpinningIcon from "@/projects/Transformation/SpinningIcon";
+import Accordion from "@/projects/Transition/Accordion";
+import FadeComponent from "@/projects/Transition/FadeComponent";
+import Modal from "@/projects/Transition/Modal";
+import ResponsiveBtn from "@/projects/Transition/ResponsiveBtn";
+import Sidebar from "@/projects/Transition/Sidebar";
+import ToastNotification from "@/projects/Transition/ToastNotification";
 
 export default function Home() {
   return (
     <div className="">
-      {/* <Box /> */}
-      {/* <BouncingCircle /> */}
-      {/* <SpinningIcon /> */}
-      {/* <ComplexAnimation /> */}
-      <SkewRectangle />
+      {/* <Accordion /> */}
+      {/* <FadeComponent /> */}
+      {/* <Modal /> */}
+      {/* <ResponsiveBtn /> */}
+      {/* <Sidebar /> */}
+      {/* <ToastNotification /> */}
     </div>
   );
 }
