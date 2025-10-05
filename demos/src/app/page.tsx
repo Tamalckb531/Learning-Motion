@@ -7,8 +7,8 @@ import SpinningIcon from "@/projects/Transition/SpinningIcon";
 export default function Home() {
   return (
     <div className="">
-      <Box />
-      {/* <BouncingCircle /> */}
+      {/* <Box /> */}
+      <BouncingCircle />
       {/* <SpinningIcon /> */}
       {/* <ComplexAnimation /> */}
       {/* <SkewRectangle /> */}
