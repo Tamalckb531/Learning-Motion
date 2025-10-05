@@ -11,8 +11,8 @@ export default function Home() {
     <div className="">
       {/* <AnimatedBg /> */}
       {/* <BouncingBall /> */}
-      {/* <ColorChangeSqr /> */}
-      <PulsatingBtn />
+      <ColorChangeSqr />
+      {/* <PulsatingBtn /> */}
       {/* <SlidingText /> */}
       {/* <WaveEffect /> */}
       {/* <ZigZagAnim /> */}
