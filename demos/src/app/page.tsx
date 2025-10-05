@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <div className="">
       {/* <Accordion /> */}
-      <FadeComponent />
+      {/* <FadeComponent /> */}
       {/* <Modal /> */}
       {/* <ResponsiveBtn /> */}
-      {/* <Sidebar /> */}
+      <Sidebar />
       {/* <ToastNotification /> */}
     </div>
   );
