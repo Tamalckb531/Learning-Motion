@@ -7,8 +7,8 @@ import Tooltip from "@/projects/variants/Tooltip";
 export default function Home() {
   return (
     <div className="">
-      <FadeInComp />
-      {/* <SlidingMenu /> */}
+      {/* <FadeInComp /> */}
+      <SlidingMenu />
       {/* <Tooltip /> */}
       {/* <ToggleSwitch /> */}
       {/* <DynamicList /> */}
