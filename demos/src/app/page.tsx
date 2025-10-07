@@ -7,8 +7,8 @@ import StaggeredTextReveal from "@/projects/Stagger/StaggeredTextReveal";
 export default function Home() {
   return (
     <div className="">
-      <StaggeredList />
-      {/* <StaggeredImageGal /> */}
+      {/* <StaggeredList /> */}
+      <StaggeredImageGal />
       {/* <StaggeredBtnPress /> */}
       {/* <StaggeredGridLayout /> */}
       {/* <StaggeredTextReveal /> */}
