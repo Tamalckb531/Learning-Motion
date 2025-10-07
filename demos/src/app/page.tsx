@@ -8,8 +8,8 @@ import TapToChangeColor from "@/projects/Gestures/TapToChangeColor";
 export default function Home() {
   return (
     <div className="">
-      <SwappableCard />
-      {/* <DraggableBox /> */}
+      {/* <SwappableCard /> */}
+      <DraggableBox />
       {/* <RotateOnDrag/> */}
       {/* <TapToChangeColor/> */}
       {/* <LongPressToChange /> */}
