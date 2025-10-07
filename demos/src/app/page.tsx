@@ -1,19 +1,17 @@
-import DraggableBox from "@/projects/Gestures/DraggableBox";
-import GestureBasedImgGal from "@/projects/Gestures/GestureBasedImgGal";
-import LongPressToChange from "@/projects/Gestures/LongPressToChange";
-import RotateOnDrag from "@/projects/Gestures/RotateOnDrag";
-import SwappableCard from "@/projects/Gestures/SwappableCard";
-import TapToChangeColor from "@/projects/Gestures/TapToChangeColor";
+import StaggeredBtnPress from "@/projects/Stagger/StaggeredBtnPress";
+import StaggeredGridLayout from "@/projects/Stagger/StaggeredGridLayout";
+import StaggeredImageGal from "@/projects/Stagger/StaggeredImageGal";
+import StaggeredList from "@/projects/Stagger/StaggeredList";
+import StaggeredTextReveal from "@/projects/Stagger/StaggeredTextReveal";
 
 export default function Home() {
   return (
     <div className="">
-      {/* <SwappableCard /> */}
-      {/* <DraggableBox /> */}
-      {/* <RotateOnDrag /> */}
-      {/* <TapToChangeColor /> */}
-      {/* <LongPressToChange /> */}
-      <GestureBasedImgGal />
+      <StaggeredList />
+      {/* <StaggeredImageGal /> */}
+      {/* <StaggeredBtnPress /> */}
+      {/* <StaggeredGridLayout /> */}
+      {/* <StaggeredTextReveal /> */}
     </div>
   );
 }
