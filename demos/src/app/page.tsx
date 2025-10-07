@@ -1,17 +1,19 @@
-import DynamicList from "@/projects/variants/DynamicList";
-import FadeInComp from "@/projects/variants/FadeInComp";
-import SlidingMenu from "@/projects/variants/SlidingMenu";
-import ToggleSwitch from "@/projects/variants/ToggleSwitch";
-import Tooltip from "@/projects/variants/Tooltip";
+import DraggableBox from "@/projects/Gestures/DraggableBox";
+import GestureBasedImgGal from "@/projects/Gestures/GestureBasedImgGal";
+import LongPressToChange from "@/projects/Gestures/LongPressToChange";
+import RotateOnDrag from "@/projects/Gestures/RotateOnDrag";
+import SwappableCard from "@/projects/Gestures/SwappableCard";
+import TapToChangeColor from "@/projects/Gestures/TapToChangeColor";
 
 export default function Home() {
   return (
     <div className="">
-      {/* <FadeInComp /> */}
-      {/* <SlidingMenu /> */}
-      {/* <Tooltip /> */}
-      {/* <ToggleSwitch /> */}
-      <DynamicList />
+      <SwappableCard />
+      {/* <DraggableBox /> */}
+      {/* <RotateOnDrag/> */}
+      {/* <TapToChangeColor/> */}
+      {/* <LongPressToChange /> */}
+      {/* <GestureBasedImgGal /> */}
     </div>
   );
 }
