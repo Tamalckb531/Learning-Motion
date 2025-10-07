@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div className="">
       {/* <StaggeredList /> */}
-      <StaggeredImageGal />
-      {/* <StaggeredBtnPress /> */}
+      {/* <StaggeredImageGal /> */}
+      <StaggeredBtnPress />
       {/* <StaggeredGridLayout /> */}
       {/* <StaggeredTextReveal /> */}
     </div>
