@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div className="">
       {/* <FadeInComp /> */}
-      <SlidingMenu />
-      {/* <Tooltip /> */}
+      {/* <SlidingMenu /> */}
+      <Tooltip />
       {/* <ToggleSwitch /> */}
       {/* <DynamicList /> */}
     </div>
