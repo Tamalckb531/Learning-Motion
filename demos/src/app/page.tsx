@@ -5,8 +5,8 @@ import HoverLinkedScale from "@/projects/MotionValue/HoverLinkedScale";
 export default function Home() {
   return (
     <div className="">
-      <DraggableBox />
-      {/* <HoverLinkedScale /> */}
+      {/* <DraggableBox /> */}
+      <HoverLinkedScale />
       {/* <DynamicRotation />  */}
     </div>
   );
