@@ -1,7 +1,26 @@
-import React from "react";
+"use client";
+
+import { useState } from "react";
+import { motion } from "motion/react";
 
 const RotateOnDrag = () => {
-  return <div>RotateOnDrag</div>;
+  const [rotation, setRotation] = useState(0);
+
+  const handleDrag = (_: any, info: any) => {
+    const newRotation = rotation + info.offset.x;
+    setRotation(newRotation);
+  };
+
+  return (
+    <motion.div
+      className=" w-32 h-32 bg-red-500 rounded-lg flex items-center justify-center"
+      drag
+      onDrag={handleDrag}
+      style={{ rotate: rotation }}
+    >
+      Drag Me
+    </motion.div>
+  );
 };
 
 export default RotateOnDrag;

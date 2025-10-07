@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div className="">
       {/* <SwappableCard /> */}
-      <DraggableBox />
-      {/* <RotateOnDrag/> */}
+      {/* <DraggableBox /> */}
+      <RotateOnDrag />
       {/* <TapToChangeColor/> */}
       {/* <LongPressToChange /> */}
       {/* <GestureBasedImgGal /> */}
