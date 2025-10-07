@@ -10,8 +10,8 @@ export default function Home() {
       {/* <FadeInComp /> */}
       {/* <SlidingMenu /> */}
       {/* <Tooltip /> */}
-      <ToggleSwitch />
-      {/* <DynamicList /> */}
+      {/* <ToggleSwitch /> */}
+      <DynamicList />
     </div>
   );
 }
