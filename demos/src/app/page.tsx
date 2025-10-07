@@ -9,8 +9,8 @@ export default function Home() {
     <div className="">
       {/* <StaggeredList /> */}
       {/* <StaggeredImageGal /> */}
-      <StaggeredBtnPress />
-      {/* <StaggeredGridLayout /> */}
+      {/* <StaggeredBtnPress /> */}
+      <StaggeredGridLayout />
       {/* <StaggeredTextReveal /> */}
     </div>
   );
