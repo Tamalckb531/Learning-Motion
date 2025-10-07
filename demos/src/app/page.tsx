@@ -11,8 +11,8 @@ export default function Home() {
       {/* <SwappableCard /> */}
       {/* <DraggableBox /> */}
       {/* <RotateOnDrag /> */}
-      <TapToChangeColor />
-      {/* <LongPressToChange /> */}
+      {/* <TapToChangeColor /> */}
+      <LongPressToChange />
       {/* <GestureBasedImgGal /> */}
     </div>
   );
