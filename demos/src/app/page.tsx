@@ -12,8 +12,8 @@ export default function Home() {
       {/* <DraggableBox /> */}
       {/* <RotateOnDrag /> */}
       {/* <TapToChangeColor /> */}
-      <LongPressToChange />
-      {/* <GestureBasedImgGal /> */}
+      {/* <LongPressToChange /> */}
+      <GestureBasedImgGal />
     </div>
   );
 }
