@@ -1,9 +1,9 @@
 "use client";
-import { motion, useMotionValue } from "motion/react";
+import { motion, useMotionValue, useSpring } from "motion/react";
 import React from "react";
 
 const DynamicRotation = () => {
-  const rotation = useMotionValue(0);
+  const rotation = useSpring(0);
 
   const rotateBox = () => {
     rotation.set(rotation.get() + 45);
