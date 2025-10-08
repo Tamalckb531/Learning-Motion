@@ -1,13 +1,15 @@
-import DraggableBox from "@/projects/MotionValue/DraggableBox";
-import DynamicRotation from "@/projects/MotionValue/DynamicRotation";
-import HoverLinkedScale from "@/projects/MotionValue/HoverLinkedScale";
+import CardFlip from "@/projects/WhileView/CardFlip";
+import InteractiveCard from "@/projects/WhileView/InteractiveCard";
+import StaggeredList from "@/projects/WhileView/StaggeredList";
+import TimelineAnimation from "@/projects/WhileView/TimelineAnimation";
 
 export default function Home() {
   return (
     <div className="">
-      {/* <DraggableBox /> */}
-      {/* <HoverLinkedScale /> */}
-      <DynamicRotation />
+      <StaggeredList />
+      {/* <CardFlip /> */}
+      {/* <TimelineAnimation /> */}
+      {/* <InteractiveCard /> */}
     </div>
   );
 }
