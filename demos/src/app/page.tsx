@@ -8,8 +8,8 @@ export default function Home() {
     <div className="">
       {/* <StaggeredList /> */}
       {/* <CardFlip /> */}
-      <TimelineAnimation />
-      {/* <InteractiveCard /> */}
+      {/* <TimelineAnimation /> */}
+      <InteractiveCard />
     </div>
   );
 }
