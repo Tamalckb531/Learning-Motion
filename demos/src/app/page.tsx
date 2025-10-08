@@ -1,15 +1,9 @@
-import CardFlip from "@/projects/WhileView/CardFlip";
-import InteractiveCard from "@/projects/WhileView/InteractiveCard";
-import StaggeredList from "@/projects/WhileView/StaggeredList";
-import TimelineAnimation from "@/projects/WhileView/TimelineAnimation";
+import ScrollIndicator from "@/projects/main/ScrollIndicator";
 
 export default function Home() {
   return (
     <div className="">
-      {/* <StaggeredList /> */}
-      {/* <CardFlip /> */}
-      {/* <TimelineAnimation /> */}
-      <InteractiveCard />
+      <ScrollIndicator />
     </div>
   );
 }
