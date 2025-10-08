@@ -6,8 +6,8 @@ import TimelineAnimation from "@/projects/WhileView/TimelineAnimation";
 export default function Home() {
   return (
     <div className="">
-      <StaggeredList />
-      {/* <CardFlip /> */}
+      {/* <StaggeredList /> */}
+      <CardFlip />
       {/* <TimelineAnimation /> */}
       {/* <InteractiveCard /> */}
     </div>
