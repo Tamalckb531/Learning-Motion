@@ -1,9 +1,9 @@
-import ScrollIndicator from "@/projects/main/ScrollIndicator";
+import Loader from "@/projects/main/Loader";
 
 export default function Home() {
   return (
     <div className="">
-      <ScrollIndicator />
+      <Loader />
     </div>
   );
 }
