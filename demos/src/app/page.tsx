@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="">
       {/* <StaggeredList /> */}
-      <CardFlip />
-      {/* <TimelineAnimation /> */}
+      {/* <CardFlip /> */}
+      <TimelineAnimation />
       {/* <InteractiveCard /> */}
     </div>
   );
